@@ -3,7 +3,9 @@
 ## Get Started
 
 - Use React Native CLI to install React Native. It requires Xcode or Android Studio to get started. Instruction and all requires [here](https://reactnative.dev/docs/getting-started.html#installing-dependencies-3)
-- Install [React Native Debugger](https://github.com/jhen0409/react-native-debugger) for ease debug. Open it before run the app.
+- Install [React Native Debugger](https://github.com/jhen0409/react-native-debugger) or [Flipper](https://fbflipper.com/docs/features/react-native.html) for ease debug. 
+    - React Native Debugger - based on official [Remote Debugger](https://reactnative.dev/docs/debugging.html#chrome-developer-tools) and provide more functionally. Have a lot devtools for debugging (React DevTools, Redux DevTools, Apollo Client DevTools,  Network inspect of Chrome Developer Tools and console).
+    - Flipper - is enabled out of the box in React Native version 0.62 and higher. It is more comfortable to use, faster and don't crash. It hasn't Redux DevTools but you can use one of this plugin [flipper-rn-redux-inspector-plugin](https://github.com/zrg-team/flipper-rn-redux-inspector-plugin) or [flipper-plugin-reduxinspector](https://github.com/blankapp/flipper-plugin-reduxinspector). If you want more plugin, flipper gives opportunity write own [JS Plugins](https://fbflipper.com/docs/tutorial/react-native.html)
 
 Create a new project use command:
 ```
